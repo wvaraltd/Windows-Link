@@ -1,5 +1,7 @@
-Fix collapsed meters in Link Mode.
+ARA navy and light-blue theme refresh.
 
-Operate controls now occupy explicit table cells, so hiding the User Mode talk panel cannot shift meters into the indicator row. Normal and full-screen layouts verified in User/Link modes, with Easy View on/off, using a Mono UI harness with Windows audio sessions mocked. Native Windows field validation remains required.
+Navy header/navigation and meter housings, light-blue selected tabs/page backgrounds, white panels, blue accents and light-blue meter labels. Analog faces, peak hold and audio behavior are unchanged. Light/Dark choices remain available.
 
-Close ARA and install over the existing version. No uninstall needed. This installer remains unsigned; use manual installation from the release page. Windows audio muting COM error is not fixed in this build.
+Choose Appearance > ARA — Default after installing if you previously selected Light or Dark. Close ARA and install over the existing version; no uninstall needed.
+
+Warning-as-error build passed. UI rendered at normal and 1920-wide widths for User/Link modes and Easy View on/off using Mono with Windows audio sessions mocked; native Windows field validation remains required. Unsigned test build: install manually from this release. Windows audio muting COM error remains unresolved.
