@@ -1,7 +1,7 @@
-Match the ARA theme to the supplied Ham Map website reference.
+Audio & Radio testing controls.
 
-Deep navy backgrounds/header/meter housings, slate-navy cards and buttons, pale blue-white text and amber accents. Light and Dark remain separate theme choices. Analog faces, peak hold and audio behavior remain unchanged.
+Start node and Stop node / unlock settings buttons added alongside Save and Scan. Live RX Carrier (COR) and Tone Detect (PL) lights use the same hardware readings as Operate and clear on stop. Locked COR/PL polarity captions are bright red and bold while running and return to theme colors on stop. Hardware settings remain locked during operation.
 
-Select Appearance > ARA — Default. Close ARA before installing over the existing version; no uninstall needed. Unsigned test build: manual installation until signing is configured. Windows audio muting COM error remains unresolved.
+Warning-as-error build passed. UI harness verified locked caption colors, Stop unlocking controls, normal/full-screen meter geometry in User/Link modes and Easy View on/off. QA uses Mono with Windows audio sessions mocked; native Windows hardware validation remains required.
 
-Warning-as-error build passed. Rendered User/Link layouts at normal and 1920-wide widths with Easy View on/off using Mono with Windows audio sessions mocked; native Windows field validation remains required.
+Close ARA and install over the existing version; no uninstall needed. Unsigned test installer: manual installation until signing is configured. Windows audio muting COM error remains unresolved.
