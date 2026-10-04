@@ -1,9 +1,11 @@
 ARA Connect — Powered by AllStarLink
 
-User Mode now has a full-width hold-to-talk bar fixed at the bottom across tabs. Hold Space or the left mouse button to transmit. The bar turns bright red and counts down from 90 seconds. At 90 seconds, transmission stops; release the held inputs before transmitting again. Keyboard repeat cannot restart the timer. Connection loss and leaving the app unkey transmission.
+User Mode: full-width bottom talk bar with a white rounded outline. Red while holding Space or mouse to transmit, amber during incoming voice, navy when idle. Shows transmitting/receiving node identity or number of destinations. Independent 90-second transmit limit; release resets it. Losing focus unkeys and requires release before restarting.
 
-Includes an independent 90-second audio-worker limit. Text-entry controls retain normal Space typing. Build, engine tests, and simulated UI keyboard/timeout/layout checks passed; native Windows audio and keyboard testing remains for field verification.
+USB/COR/PL indicators hidden in User Mode, retained in Link Mode. Clear running/connecting/connected status. Audio & Radio adds a local 10-second microphone level check; no network transmission. Logs & Tests adds Open logs and Copy diagnostics without credentials. Window size/position remembered and moved onto an available screen. Connected exit prompts to disconnect; transmit releases before the prompt.
 
-Close ARA Connect before installing. Install over the existing version; no uninstall required. Existing settings are preserved.
+Quiet Windows now targets only the Windows system-sounds session, preserving ARA and other application audio and restoring original mute states on disable/stop/close. Corrected the invalid IMMDeviceCollection interface ID behind E_NOINTERFACE. Newly created system-sounds sessions are polled. Application-specific notification audio is outside the Windows system-sounds session.
 
-Known limitations: installer is unsigned; automatic install remains disabled pending trusted signing. Quiet Windows system-sound muting remains unresolved on some Windows setups.
+Build and engine/mocked mute/UI tests passed. Native Windows audio/muting/keyboard/USB and an overnight soak test remain for field verification.
+
+Close ARA Connect before installing over the existing version. Settings preserved; no uninstall required. Installer unsigned; automatic installation remains disabled pending trusted signing.

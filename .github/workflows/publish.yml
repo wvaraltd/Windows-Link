@@ -29,4 +29,4 @@ jobs:
             echo "Release already exists; refusing to overwrite it."
             exit 1
           fi
-          gh release create "v$version" "$installer" SHA256SUMS --target "$GITHUB_SHA" --title "ARA IAX Windows v$version" --notes-file RELEASE-NOTES.md
+          gh release create "v$version" "$installer" SHA256SUMS --target "$GITHUB_SHA" --title "ARA Connect v$version" --notes-file RELEASE-NOTES.md
