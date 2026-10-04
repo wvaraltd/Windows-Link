@@ -1,7 +1,7 @@
-ARA navy and light-blue theme refresh.
+Match the ARA theme to the supplied Ham Map website reference.
 
-Navy header/navigation and meter housings, light-blue selected tabs/page backgrounds, white panels, blue accents and light-blue meter labels. Analog faces, peak hold and audio behavior are unchanged. Light/Dark choices remain available.
+Deep navy backgrounds/header/meter housings, slate-navy cards and buttons, pale blue-white text and amber accents. Light and Dark remain separate theme choices. Analog faces, peak hold and audio behavior remain unchanged.
 
-Choose Appearance > ARA — Default after installing if you previously selected Light or Dark. Close ARA and install over the existing version; no uninstall needed.
+Select Appearance > ARA — Default. Close ARA before installing over the existing version; no uninstall needed. Unsigned test build: manual installation until signing is configured. Windows audio muting COM error remains unresolved.
 
-Warning-as-error build passed. UI rendered at normal and 1920-wide widths for User/Link modes and Easy View on/off using Mono with Windows audio sessions mocked; native Windows field validation remains required. Unsigned test build: install manually from this release. Windows audio muting COM error remains unresolved.
+Warning-as-error build passed. Rendered User/Link layouts at normal and 1920-wide widths with Easy View on/off using Mono with Windows audio sessions mocked; native Windows field validation remains required.
