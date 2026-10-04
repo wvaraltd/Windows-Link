@@ -1,15 +1,13 @@
-# ARA IAX Windows
+# ARA Connect
 
-Official Windows installer downloads from the Appalachian Repeater Association.
+**Powered by AllStarLink**
 
-This public repository contains distribution files and release notes. Application source code is maintained separately and is not published here.
+Windows AllStar application from the Appalachian Repeater Association. User Mode provides PC microphone/speakers; Link Mode supports a USB radio interface.
 
-## Install or upgrade
+[Download the latest installer](https://github.com/wvaraltd/Windows-Link/releases/latest)
 
-Download the installer from [Releases](https://github.com/wvaraltd/Windows-Link/releases). Close ARA, run Setup over your existing installation, then reopen ARA. No uninstall is needed; settings and credentials are preserved.
+Close ARA Connect and run Setup over your existing installation. No uninstall is needed; settings and credentials are retained. Earlier ARA IAX Windows installations upgrade in place.
 
-The software supports PC microphone/speakers in User Mode and a USB radio interface in Link Mode.
+This public repository contains installers, release notes and publishing automation. Source code is maintained separately and is not published here.
 
-## Update status
-
-Version 1.4.3 checks this repository for stable releases. Automatic installation requires an approved publisher signing certificate. Current unsigned test installers must be installed manually.
+Check for updates uses this repository. Unsigned test releases require manual installation from the release page. Automatic installation requires a configured trusted publisher signature.

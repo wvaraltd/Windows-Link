@@ -1,7 +1,7 @@
-Audio & Radio testing controls.
+ARA Connect — Powered by AllStarLink.
 
-Start node and Stop node / unlock settings buttons added alongside Save and Scan. Live RX Carrier (COR) and Tone Detect (PL) lights use the same hardware readings as Operate and clear on stop. Locked COR/PL polarity captions are bright red and bold while running and return to theme colors on stop. Hardware settings remain locked during operation.
+Application header, window titles, installer display name and desktop/Start Menu shortcuts use ARA Connect. Header subtitle is Powered by AllStarLink. Existing settings, executable/service identities, install directory and update asset names are retained for upgrade compatibility. Setup removes the known old ARA IAX Windows shortcuts and replaces them with ARA Connect shortcuts.
 
-Warning-as-error build passed. UI harness verified locked caption colors, Stop unlocking controls, normal/full-screen meter geometry in User/Link modes and Easy View on/off. QA uses Mono with Windows audio sessions mocked; native Windows hardware validation remains required.
+Includes Audio & Radio Start/Stop buttons, live COR/PL lights and red locked polarity labels from v1.4.7.
 
-Close ARA and install over the existing version; no uninstall needed. Unsigned test installer: manual installation until signing is configured. Windows audio muting COM error remains unresolved.
+Warning-as-error .NET 4.8 build passed. Close ARA and install over the existing version; no uninstall needed. Unsigned test installer: manual installation until signing is configured. Windows audio muting COM error remains unresolved.
